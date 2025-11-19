@@ -1,127 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>1313 Realty | Edmonton Properties</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Enhanced SEO Meta Tags -->
+    <title>1313 Realty | Edmonton Real Estate Agent | Buy & Sell Homes in Edmonton</title>
+    <meta name="description" content="Expert Edmonton real estate services. Find your dream home, get accurate home valuations, and work with a dedicated realtor. Serving Edmonton and surrounding areas." />
+    <meta name="keywords" content="Edmonton real estate, Edmonton realtor, homes for sale Edmonton, buy house Edmonton, sell house Edmonton, real estate agent Edmonton" />
+    <meta name="author" content="1313 Realty" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="1313 Realty | Edmonton Real Estate Expert" />
+    <meta property="og:description" content="Your trusted Edmonton real estate agent. Personalized service for buying and selling homes." />
+    <meta property="og:image" content="https://1313realty.netlify.app/hero.png" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="1313 Realty | Edmonton Real Estate" />
+    <meta name="twitter:description" content="Expert real estate services in Edmonton" />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
 </head>
 <body>
 
-<header class="header" id="home">
-  <nav class="nav" role="navigation" aria-label="Primary Navigation">
-    <div class="logo-container">
-      <img src="logo.png" alt="1313 Realty Logo" class="logo" />
-    </div>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#home" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#properties" class="nav-link">Properties</a></li>
-      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
-      <i class="fas fa-bars"></i>
-    </button>
-  </nav>
-  <div class="hero">
-    <div class="hero-overlay" aria-hidden="true"></div>
-    <div class="hero-text" role="banner">
-      <h1>1313 Realty</h1>
-      <p>Edmonton’s Cost-Conscious Real Estate Experts</p>
-      <a href="#contact" class="btn-yellow" role="button">Get In Touch</a>
-    </div>
-  </div>
-</header>
-
-<main>
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      Dedicated to helping you buy and sell homes in Edmonton with expertise and personalized service. I’m committed to finding the perfect property for you—on budget, with local insight.
-    </p>
-  </section>
-
-  <section id="properties" class="section">
-    <h2>Featured Properties</h2>
-    <div class="properties-grid">
-      <div class="property-card">
-        <img src="property1.jpg" alt="123 Maple Street" />
-        <div class="property-info">
-          <h3>123 Maple Street</h3>
-          <p>Modern 3-bedroom home in a prime central location.</p>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <a href="tel:+17801234567" class="phone-link">
+                    <i class="fas fa-phone"></i> (780) 123-4567
+                </a>
+                <a href="mailto:info@1313realty.com" class="email-link">
+                    <i class="fas fa-envelope"></i> info@1313realty.com
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="property-card">
-        <img src="property2.jpg" alt="45 Elm Avenue" />
-        <div class="property-info">
-          <h3>45 Elm Avenue</h3>
-          <p>Spacious condo with amenities, perfect for professionals.</p>
-        </div>
-      </div>
-      <div class="property-card">
-        <img src="property3.jpg" alt="789 Oak Crescent" />
-        <div class="property-info">
-          <h3>789 Oak Crescent</h3>
-          <p>Renovated bungalow with a large yard—ideal for families.</p>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <section id="testimonials" class="section">
-    <h2>Client Testimonials</h2>
-    <div class="testimonial-slider" role="region" aria-live="polite" aria-label="Client Testimonials">
-      <blockquote class="active">
-        <p>"1313 Realty found our perfect Edmonton home swiftly—highly recommended!"</p>
-        <cite>- Satisfied Client</cite>
-      </blockquote>
-      <blockquote>
-        <p>"Professional, knowledgeable, and friendly throughout our property search."</p>
-        <cite>- Happy Homeowner</cite>
-      </blockquote>
-      <blockquote>
-        <p>"Excellent service and local expertise—made our move smooth!"</p>
-        <cite>- New Homeowner</cite>
-      </blockquote>
-      <button id="prevTestimonial" class="testimonial-btn" aria-label="Previous testimonial">&#10094;</button>
-      <button id="nextTestimonial" class="testimonial-btn" aria-label="Next testimonial">&#10095;</button>
+    <!-- Enhanced Header with Sticky Nav -->
+    <header class="header" id="header">
+        <nav class="nav" role="navigation" aria-label="Primary Navigation">
+            <div class="logo-container">
+                <img src="logo.png" alt="1313 Realty Logo" class="logo" />
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#properties" class="nav-link">Properties</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-text" role="banner">
+            <h1>Find Your Dream Home in Edmonton</h1>
+            <p>Expert real estate services with personalized attention. Let's find your perfect property together.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-yellow" role="button">Get Free Home Valuation</a>
+                <a href="#properties" class="btn-outline" role="button">Browse Properties</a>
+            </div>
+        </div>
     </div>
-  </section>
 
-  <section id="contact" class="section contact-section">
-    <h2>Contact Me</h2>
-    <form name="contact" method="POST" data-netlify="true" class="contact-form" aria-label="Contact form">
-      <input type="hidden" name="form-name" value="contact" />
-      <div class="form-group">
-        <input type="text" id="name" name="name" placeholder=" " required autocomplete="off" />
-        <label for="name">Your Name</label>
-      </div>
-      <div class="form-group">
-        <input type="email" id="email" name="email" placeholder=" " required autocomplete="off" />
-        <label for="email">Your Email</label>
-      </div>
-      <div class="form-group">
-        <textarea id="message" name="message" placeholder=" " rows="4" required></textarea>
-        <label for="message">How can I help you?</label>
-      </div>
-      <button type="submit" class="btn-yellow">Send Message</button>
-      <p class="form-message" aria-live="polite"></p>
-    </form>
-  </section>
-</main>
+    <main>
 
-<footer class="footer" role="contentinfo">
-  <div class="social-links">
-    <a href="https://facebook.com/YOUR_PAGE" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-    <a href="https://www.tiktok.com/@YOUR_PROFILE" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-    <a href="https://www.google.com/maps/place/YOUR_BUSINESS" target="_blank" aria-label="Google Business"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></a>
-  </div>
-  <p>&copy; 2025 1313 Realty. All rights reserved.</p>
-</footer>
+        <!-- Home Valuation CTA Section -->
+        <section class="valuation-cta">
+            <div class="container">
+                <div class="valuation-content">
+                    <div class="valuation-text">
+                        <h2>What's Your Home Worth?</h2>
+                        <p>Get an accurate, free home valuation in minutes. No obligations, just valuable insights.</p>
+                    </div>
+                    <form class="quick-valuation-form" id="valuationForm">
+                        <input type="text" placeholder="Enter your address" id="valAddress" required />
+                        <input type="email" placeholder="Your email" id="valEmail" required />
+                        <button type="submit" class="btn-primary">Get Valuation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
-<script src="script.js"></script>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>With years of experience in Edmonton's real estate market, I'm committed to helping you buy and sell homes with expertise and personalized service. Whether you're a first-time buyer, looking to upgrade, or ready to sell, I'm here to guide you every step of the way.</p>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle"></i> Local Market Expert</li>
+                            <li><i class="fas fa-check-circle"></i> Personalized Service</li>
+                            <li><i class="fas fa-check-circle"></i> Proven Track Record</li>
+                            <li><i class="fas fa-check-circle"></i> Available 7 Days a Week</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2>My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-home service-icon"></i>
+                        <h3>Buyer Representation</h3>
+                        <p>Find your perfect home with expert guidance and negotiation</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-dollar-sign service-icon"></i>
+                        <h3>Seller Representation</h3>
+                        <p>Get top dollar for your property with strategic marketing</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-chart-line service-icon"></i>
+                        <h3>Market Analysis</h3>
+                        <p>Access detailed market data and property valuations</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-key service-icon"></i>
+                        <h3>Investment Properties</h3>
+                        <p>Build wealth through strategic real estate investments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Properties Section -->
+        <section id="properties" class="section">
+            <div class="container">
+                <h2>Featured Properties</h2>
+                <div class="properties-grid">
+                    <div class="property-card">
+                        <img src="property1.jpg" alt="123 Maple Street" class="property-image" />
+                        <div class="property-badge">For Sale</div>
+                        <div class="property-info">
+                            <h3>$649,900</h3>
+                            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 123 Maple Street</p>
+                            <div class="property-stats">
+                                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                                <span><i class="fas fa-ruler-combined"></i> 1,850 sqft</span>
+                            </div>
+                            <button class="btn-view" onclick="scheduleViewing(this)">Schedule Viewing</button>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="property2.jpg" alt="45 Elm Avenue" class="property-image" />
+                        <div class="property-badge">New Listing</div>
+                        <div class="property-info">
+                            <h3>$789,500</h3>
+                            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 45 Elm Avenue</p>
+                            <div class="property-stats">
+                                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                                <span><i class="fas fa-ruler-combined"></i> 2,400 sqft</span>
+                            </div>
+                            <button class="btn-view" onclick="scheduleViewing(this)">Schedule Viewing</button>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="property3.jpg" alt="789 Oak Crescent" class="property-image" />
+                        <div class="property-badge sold">Sold</div>
+                        <div class="property-info">
+                            <h3>$925,000</h3>
+                            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 789 Oak Crescent</p>
+                            <div class="property-stats">
+                                <span><i class="fas fa-bed"></i> 5 Beds</span>
+                                <span><i class="fas fa-bath"></i> 4 Baths</span>
+                                <span><i class="fas fa-ruler-combined"></i> 3,200 sqft</span>
+                            </div>
+                            <button class="btn-view disabled">Recently Sold</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mortgage Calculator Section -->
+        <section id="calculator" class="section calculator-section">
+            <div class="container">
+                <h2>Mortgage Calculator</h2>
+                <div class="calculator-container">
+                    <div class="calculator-form">
+                        <div class="input-group">
+                            <label for="homePrice">Home Price</label>
+                            <input type="range" id="homePrice" min="200000" max="2000000" step="10000" value="500000" />
+                            <span id="homePriceValue" class="value-display">$500,000</span>
+                        </div>
+                        <div class="input-group">
+                            <label for="downPayment">Down Payment</label>
+                            <input type="range" id="downPayment" min="0" max="500000" step="5000" value="100000" />
+                            <span id="downPaymentValue" class="value-display">$100,000</span>
+                        </div>
+                        <div class="input-group">
+                            <label for="interestRate">Interest Rate (%)</label>
+                            <input type="range" id="interestRate" min="1" max="10" step="0.1" value="5.5" />
+                            <span id="interestRateValue" class="value-display">5.5%</span>
+                        </div>
+                        <div class="input-group">
+                            <label for="loanTerm">Loan Term (Years)</label>
+                            <select id="loanTerm">
+                                <option value="15">15 Years</option>
+                                <option value="20">20 Years</option>
+                                <option value="25" selected>25 Years</option>
+                                <option value="30">30 Years</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="calculator-result">
+                        <h3>Monthly Payment</h3>
+                        <div class="payment-amount" id="monthlyPayment">$2,456</div>
+                        <div class="payment-breakdown">
+                            <p>Principal & Interest: <span id="piPayment">$2,456</span></p>
+                            <p>Total Loan Amount: <span id="loanAmount">$400,000</span></p>
+                            <p>Total Interest: <span id="totalInterest">$336,800</span></p>
+                        </div>
+                        <button class="btn-primary" onclick="contactAboutMortgage()">Get Pre-Approved</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2>Client Testimonials</h2>
+                <div class="testimonial-slider" role="region" aria-live="polite" aria-label="Client Testimonials">
+                    <div class="testimonial active">
+                        <blockquote>
+                            <p>"1313 Realty found our perfect Edmonton home swiftly—highly recommended!"</p>
+                            <cite>— Satisfied Client</cite>
+                        </blockquote>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            <p>"Professional, knowledgeable, and friendly throughout our property search."</p>
+                            <cite>— Happy Homeowner</cite>
+                        </blockquote>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            <p>"Excellent service and local expertise—made our move smooth!"</p>
+                            <cite>— New Homeowner</cite>
+                        </blockquote>
+                    </div>
+                    <button id="prevTestimonial" class="testimonial-btn" aria-label="Previous testimonial">&#10094;</button>
+                    <button id="nextTestimonial" class="testimonial-btn" aria-label="Next testimonial">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form name="contact" method="POST" data-netlify="true" class="contact-form" aria-label="Contact form">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name" />
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email" />
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number (Optional)" autocomplete="tel" />
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="inquiry-type" name="inquiry-type">
+                            <option value="">Select Inquiry Type</option>
+                            <option value="buying">Buying a Home</option>
+                            <option value="selling">Selling a Home</option>
+                            <option value="valuation">Home Valuation</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="How can I help you?" rows="4" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn-yellow">Send Message</button>
+                    <p class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>1313 Realty</h3>
+                    <p>Your trusted Edmonton real estate partner</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/YOUR_PAGE" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/YOUR_PROFILE" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (780) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@1313realty.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Edmonton, AB</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 1313 Realty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Live Chat Widget - Tidio (Replace with your Tidio key) -->
+    <script src="//code.tidio.co/YOUR_TIDIO_KEY.js" async></script>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
 </body>
 </html>
