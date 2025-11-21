@@ -1018,7 +1018,7 @@ html {
 }
 
 .boldtrail-widget-container {
-    min-height: 800px;
+    min-height: 200px;
 }
 
 @media (max-width: 768px) {
